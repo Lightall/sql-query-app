@@ -12,7 +12,22 @@
       "Bash(git remote:*)",
       "Bash(git config:*)",
       "Bash(GIT_TRACE=1 GIT_CURL_VERBOSE=1 git push:*)",
-      "Bash(gh issue list:*)"
+      "Bash(gh issue list:*)",
+      "Bash(gh repo set-default:*)",
+      "Bash(ssh:*)",
+      "Bash(GIT_ASKPASS=\"\" GIT_TERMINAL_PROMPT=0 git push:*)",
+      "Bash(ALL_PROXY=socks5://127.0.0.1:1080 git push:*)",
+      "Bash(export ALL_PROXY=socks5://127.0.0.1:1080)",
+      "Bash(gh pr create --base main --head feature/test --title \"配置权限更新和分支合并\" --body \"$\\(cat <<''EOF''\n## Summary\n- 在 main 分支配置了 Git 和 GitHub CLI 操作权限\n- 在 feature/test 分支添加了额外的权限配置\n- 合并了 main 分支的更改到 feature/test\n\n## Changes\n- 添加 git commit、checkout、merge、push、remote、config 等命令权限\n- 添加 gh 认证、仓库创建和 issue 查看权限\n- 解决了合并冲突并统一了权限配置\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\nEOF\n\\)\")",
+      "Bash(export ALL_PROXY=socks5://127.0.0.1:1080 HTTPS_PROXY=socks5://127.0.0.1:1080 HTTP_PROXY=socks5://127.0.0.1:1080)",
+      "Bash(gh api:*)",
+      "Bash(nc:*)",
+      "Bash(curl:*)",
+      "Bash(chmod:*)",
+      "Bash(/tmp/git-push-with-proxy.sh)",
+      "Bash(ls:*)",
+      "Bash(ssh-add:*)",
+      "Bash(gh ssh-key:*)"
     ]
   }
 }
